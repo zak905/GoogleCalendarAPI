@@ -182,7 +182,7 @@ public class GoogleCalendarManager {
 	       event.setEnd(new EventDateTime().setDateTime(finishingDateTime));
 	       
 	       
-	       addEvent(event, request.getA().getProfile().getName());
+	       addEvent(event, calendarName);
 		  
 		  
 	  }
